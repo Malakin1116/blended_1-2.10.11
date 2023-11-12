@@ -1,1 +1,14 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+.user-list-item {
+    border: 1px solid black
+
+}
+
+.usersList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
